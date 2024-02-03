@@ -16,5 +16,28 @@ namespace CalculadoraXtreme5000ProMaxBeta5
         {
             InitializeComponent();
         }
+
+        private void btnZero_Click(object sender, EventArgs e)
+        {
+            AdicionaNumeroVisor(0);
+        }
+
+        private void btnUm_Click(object sender, EventArgs e)
+        {
+            AdicionaNumeroVisor(1);
+        }
+
+        private void AdicionaNumeroVisor(int numero)
+        {
+            decimal valor = decimal.Parse(txtResultado.Text);
+
+            if (valor == 0)
+            {
+                // Limpa o campo de texto
+                txtResultado.Clear();
+            }
+
+            txtResultado.Text = txtResultado.Text + numero.ToString();
+        }
     }
 }

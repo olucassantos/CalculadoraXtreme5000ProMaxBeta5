@@ -114,7 +114,7 @@
             this.btnPorcentagem.Location = new System.Drawing.Point(3, 3);
             this.btnPorcentagem.Name = "btnPorcentagem";
             this.btnPorcentagem.Size = new System.Drawing.Size(103, 108);
-            this.btnPorcentagem.TabIndex = 0;
+            this.btnPorcentagem.TabIndex = 16;
             this.btnPorcentagem.Text = "%";
             this.btnPorcentagem.UseVisualStyleBackColor = false;
             // 
@@ -127,7 +127,7 @@
             this.btnLimparMemoria.Location = new System.Drawing.Point(112, 3);
             this.btnLimparMemoria.Name = "btnLimparMemoria";
             this.btnLimparMemoria.Size = new System.Drawing.Size(103, 108);
-            this.btnLimparMemoria.TabIndex = 1;
+            this.btnLimparMemoria.TabIndex = 17;
             this.btnLimparMemoria.Text = "CE";
             this.btnLimparMemoria.UseVisualStyleBackColor = false;
             // 
@@ -140,7 +140,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(221, 3);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(103, 108);
-            this.btnLimpar.TabIndex = 2;
+            this.btnLimpar.TabIndex = 18;
             this.btnLimpar.Text = "C";
             this.btnLimpar.UseVisualStyleBackColor = false;
             // 
@@ -153,7 +153,7 @@
             this.btnDividir.Location = new System.Drawing.Point(330, 3);
             this.btnDividir.Name = "btnDividir";
             this.btnDividir.Size = new System.Drawing.Size(106, 108);
-            this.btnDividir.TabIndex = 3;
+            this.btnDividir.TabIndex = 19;
             this.btnDividir.Text = "÷";
             this.btnDividir.UseVisualStyleBackColor = false;
             // 
@@ -166,7 +166,7 @@
             this.btnSete.Location = new System.Drawing.Point(3, 117);
             this.btnSete.Name = "btnSete";
             this.btnSete.Size = new System.Drawing.Size(103, 108);
-            this.btnSete.TabIndex = 4;
+            this.btnSete.TabIndex = 12;
             this.btnSete.Text = "7";
             this.btnSete.UseVisualStyleBackColor = false;
             // 
@@ -179,7 +179,7 @@
             this.btnOito.Location = new System.Drawing.Point(112, 117);
             this.btnOito.Name = "btnOito";
             this.btnOito.Size = new System.Drawing.Size(103, 108);
-            this.btnOito.TabIndex = 5;
+            this.btnOito.TabIndex = 13;
             this.btnOito.Text = "8";
             this.btnOito.UseVisualStyleBackColor = false;
             // 
@@ -192,7 +192,7 @@
             this.btnNove.Location = new System.Drawing.Point(221, 117);
             this.btnNove.Name = "btnNove";
             this.btnNove.Size = new System.Drawing.Size(103, 108);
-            this.btnNove.TabIndex = 6;
+            this.btnNove.TabIndex = 14;
             this.btnNove.Text = "9";
             this.btnNove.UseVisualStyleBackColor = false;
             // 
@@ -205,7 +205,7 @@
             this.btnVezes.Location = new System.Drawing.Point(330, 117);
             this.btnVezes.Name = "btnVezes";
             this.btnVezes.Size = new System.Drawing.Size(106, 108);
-            this.btnVezes.TabIndex = 7;
+            this.btnVezes.TabIndex = 15;
             this.btnVezes.Text = "x";
             this.btnVezes.UseVisualStyleBackColor = false;
             // 
@@ -270,9 +270,10 @@
             this.btnUm.Location = new System.Drawing.Point(3, 345);
             this.btnUm.Name = "btnUm";
             this.btnUm.Size = new System.Drawing.Size(103, 108);
-            this.btnUm.TabIndex = 12;
+            this.btnUm.TabIndex = 4;
             this.btnUm.Text = "1";
             this.btnUm.UseVisualStyleBackColor = false;
+            this.btnUm.Click += new System.EventHandler(this.btnUm_Click);
             // 
             // btnDois
             // 
@@ -283,7 +284,7 @@
             this.btnDois.Location = new System.Drawing.Point(112, 345);
             this.btnDois.Name = "btnDois";
             this.btnDois.Size = new System.Drawing.Size(103, 108);
-            this.btnDois.TabIndex = 13;
+            this.btnDois.TabIndex = 5;
             this.btnDois.Text = "2";
             this.btnDois.UseVisualStyleBackColor = false;
             // 
@@ -296,7 +297,7 @@
             this.btnTres.Location = new System.Drawing.Point(221, 345);
             this.btnTres.Name = "btnTres";
             this.btnTres.Size = new System.Drawing.Size(103, 108);
-            this.btnTres.TabIndex = 14;
+            this.btnTres.TabIndex = 6;
             this.btnTres.Text = "3";
             this.btnTres.UseVisualStyleBackColor = false;
             // 
@@ -309,7 +310,7 @@
             this.btnMais.Location = new System.Drawing.Point(330, 345);
             this.btnMais.Name = "btnMais";
             this.btnMais.Size = new System.Drawing.Size(106, 108);
-            this.btnMais.TabIndex = 15;
+            this.btnMais.TabIndex = 7;
             this.btnMais.Text = "+";
             this.btnMais.UseVisualStyleBackColor = false;
             // 
@@ -322,7 +323,7 @@
             this.btnVirgula.Location = new System.Drawing.Point(221, 459);
             this.btnVirgula.Name = "btnVirgula";
             this.btnVirgula.Size = new System.Drawing.Size(103, 112);
-            this.btnVirgula.TabIndex = 16;
+            this.btnVirgula.TabIndex = 2;
             this.btnVirgula.Text = ",";
             this.btnVirgula.UseVisualStyleBackColor = false;
             // 
@@ -335,7 +336,7 @@
             this.btnIgual.Location = new System.Drawing.Point(330, 459);
             this.btnIgual.Name = "btnIgual";
             this.btnIgual.Size = new System.Drawing.Size(106, 112);
-            this.btnIgual.TabIndex = 17;
+            this.btnIgual.TabIndex = 3;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = false;
             // 
@@ -348,7 +349,7 @@
             this.btnMaisMenos.Location = new System.Drawing.Point(3, 459);
             this.btnMaisMenos.Name = "btnMaisMenos";
             this.btnMaisMenos.Size = new System.Drawing.Size(103, 112);
-            this.btnMaisMenos.TabIndex = 18;
+            this.btnMaisMenos.TabIndex = 0;
             this.btnMaisMenos.Text = "+/-";
             this.btnMaisMenos.UseVisualStyleBackColor = false;
             // 
@@ -361,9 +362,10 @@
             this.btnZero.Location = new System.Drawing.Point(112, 459);
             this.btnZero.Name = "btnZero";
             this.btnZero.Size = new System.Drawing.Size(103, 112);
-            this.btnZero.TabIndex = 19;
+            this.btnZero.TabIndex = 1;
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = false;
+            this.btnZero.Click += new System.EventHandler(this.btnZero_Click);
             // 
             // FormularioCalculadora
             // 
