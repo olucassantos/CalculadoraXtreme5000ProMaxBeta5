@@ -21,6 +21,9 @@ namespace CalculadoraXtreme5000ProMaxBeta5
         public FormularioCalculadora()
         {
             InitializeComponent();
+
+            // Captura todos os eventos de teclas antes dos componentes filhos
+            this.KeyPreview = true;
         }
 
         private void btnZero_Click(object sender, EventArgs e)
@@ -156,6 +159,41 @@ namespace CalculadoraXtreme5000ProMaxBeta5
 
             // Marca que a tela precisa ser limpa
             precisaLimparTela = true;
+        }
+
+        // Executa quanto o usuário digita uma tecla
+        private void FormularioCalculadora_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Se a tecla apertada for igual o numero 1
+            if (e.KeyChar == '1')
+                AdicionaNumeroVisor(1);
+            else if (e.KeyChar == '2')
+                AdicionaNumeroVisor(2);
+            else if (e.KeyChar == '3')
+                AdicionaNumeroVisor(3);
+            else if (e.KeyChar == '4')
+                AdicionaNumeroVisor(4);
+            else if (e.KeyChar == '5')
+                AdicionaNumeroVisor(5);
+            else if (e.KeyChar == '6')
+                AdicionaNumeroVisor(6);
+            else if (e.KeyChar == '7')
+                AdicionaNumeroVisor(7);
+            else if (e.KeyChar == '8')
+                AdicionaNumeroVisor(8);
+            else if (e.KeyChar == '9')
+                AdicionaNumeroVisor(9);
+            else if (e.KeyChar == '0')
+                AdicionaNumeroVisor(0);
+            else if (e.KeyChar == '+')
+                SelecionaOperacao("+");
+            else if (e.KeyChar == '-')
+                SelecionaOperacao("-");
+            else if (e.KeyChar == '/')
+                SelecionaOperacao("/");
+            else if (e.KeyChar == '*')
+                SelecionaOperacao("*");
+
         }
     }
 }

@@ -393,6 +393,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormularioCalculadora";
             this.Text = "Calk";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FormularioCalculadora_KeyPress);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
