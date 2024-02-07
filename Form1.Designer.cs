@@ -30,26 +30,26 @@
         {
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnPorcentagem = new System.Windows.Forms.Button();
-            this.btnLimparMemoria = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnDividir = new System.Windows.Forms.Button();
-            this.btnSete = new System.Windows.Forms.Button();
-            this.btnOito = new System.Windows.Forms.Button();
-            this.btnNove = new System.Windows.Forms.Button();
-            this.btnVezes = new System.Windows.Forms.Button();
-            this.btnQuatro = new System.Windows.Forms.Button();
-            this.btnCinco = new System.Windows.Forms.Button();
-            this.btnSeis = new System.Windows.Forms.Button();
-            this.btnMenos = new System.Windows.Forms.Button();
-            this.btnUm = new System.Windows.Forms.Button();
-            this.btnDois = new System.Windows.Forms.Button();
-            this.btnTres = new System.Windows.Forms.Button();
-            this.btnMais = new System.Windows.Forms.Button();
-            this.btnVirgula = new System.Windows.Forms.Button();
-            this.btnIgual = new System.Windows.Forms.Button();
-            this.btnMaisMenos = new System.Windows.Forms.Button();
             this.btnZero = new System.Windows.Forms.Button();
+            this.btnMaisMenos = new System.Windows.Forms.Button();
+            this.btnIgual = new System.Windows.Forms.Button();
+            this.btnVirgula = new System.Windows.Forms.Button();
+            this.btnMais = new System.Windows.Forms.Button();
+            this.btnTres = new System.Windows.Forms.Button();
+            this.btnDois = new System.Windows.Forms.Button();
+            this.btnUm = new System.Windows.Forms.Button();
+            this.btnMenos = new System.Windows.Forms.Button();
+            this.btnSeis = new System.Windows.Forms.Button();
+            this.btnCinco = new System.Windows.Forms.Button();
+            this.btnQuatro = new System.Windows.Forms.Button();
+            this.btnVezes = new System.Windows.Forms.Button();
+            this.btnNove = new System.Windows.Forms.Button();
+            this.btnOito = new System.Windows.Forms.Button();
+            this.btnSete = new System.Windows.Forms.Button();
+            this.btnDividir = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnLimparMemoria = new System.Windows.Forms.Button();
+            this.btnPorcentagem = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,161 +105,101 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(439, 574);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // btnPorcentagem
+            // btnZero
             // 
-            this.btnPorcentagem.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnPorcentagem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnPorcentagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPorcentagem.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPorcentagem.Location = new System.Drawing.Point(3, 3);
-            this.btnPorcentagem.Name = "btnPorcentagem";
-            this.btnPorcentagem.Size = new System.Drawing.Size(103, 108);
-            this.btnPorcentagem.TabIndex = 16;
-            this.btnPorcentagem.Text = "%";
-            this.btnPorcentagem.UseVisualStyleBackColor = false;
+            this.btnZero.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnZero.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnZero.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnZero.Location = new System.Drawing.Point(112, 459);
+            this.btnZero.Name = "btnZero";
+            this.btnZero.Size = new System.Drawing.Size(103, 112);
+            this.btnZero.TabIndex = 1;
+            this.btnZero.Text = "0";
+            this.btnZero.UseVisualStyleBackColor = false;
+            this.btnZero.Click += new System.EventHandler(this.btnZero_Click);
             // 
-            // btnLimparMemoria
+            // btnMaisMenos
             // 
-            this.btnLimparMemoria.BackColor = System.Drawing.Color.Turquoise;
-            this.btnLimparMemoria.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnLimparMemoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimparMemoria.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimparMemoria.Location = new System.Drawing.Point(112, 3);
-            this.btnLimparMemoria.Name = "btnLimparMemoria";
-            this.btnLimparMemoria.Size = new System.Drawing.Size(103, 108);
-            this.btnLimparMemoria.TabIndex = 17;
-            this.btnLimparMemoria.Text = "CE";
-            this.btnLimparMemoria.UseVisualStyleBackColor = false;
+            this.btnMaisMenos.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnMaisMenos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnMaisMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaisMenos.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaisMenos.Location = new System.Drawing.Point(3, 459);
+            this.btnMaisMenos.Name = "btnMaisMenos";
+            this.btnMaisMenos.Size = new System.Drawing.Size(103, 112);
+            this.btnMaisMenos.TabIndex = 0;
+            this.btnMaisMenos.Text = "+/-";
+            this.btnMaisMenos.UseVisualStyleBackColor = false;
             // 
-            // btnLimpar
+            // btnIgual
             // 
-            this.btnLimpar.BackColor = System.Drawing.Color.Turquoise;
-            this.btnLimpar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLimpar.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(221, 3);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(103, 108);
-            this.btnLimpar.TabIndex = 18;
-            this.btnLimpar.Text = "C";
-            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnIgual.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnIgual.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIgual.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIgual.Location = new System.Drawing.Point(330, 459);
+            this.btnIgual.Name = "btnIgual";
+            this.btnIgual.Size = new System.Drawing.Size(106, 112);
+            this.btnIgual.TabIndex = 3;
+            this.btnIgual.Text = "=";
+            this.btnIgual.UseVisualStyleBackColor = false;
+            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
             // 
-            // btnDividir
+            // btnVirgula
             // 
-            this.btnDividir.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnDividir.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDividir.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDividir.Location = new System.Drawing.Point(330, 3);
-            this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(106, 108);
-            this.btnDividir.TabIndex = 19;
-            this.btnDividir.Text = "÷";
-            this.btnDividir.UseVisualStyleBackColor = false;
+            this.btnVirgula.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnVirgula.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnVirgula.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVirgula.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVirgula.Location = new System.Drawing.Point(221, 459);
+            this.btnVirgula.Name = "btnVirgula";
+            this.btnVirgula.Size = new System.Drawing.Size(103, 112);
+            this.btnVirgula.TabIndex = 2;
+            this.btnVirgula.Text = ",";
+            this.btnVirgula.UseVisualStyleBackColor = false;
             // 
-            // btnSete
+            // btnMais
             // 
-            this.btnSete.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnSete.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnSete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSete.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSete.Location = new System.Drawing.Point(3, 117);
-            this.btnSete.Name = "btnSete";
-            this.btnSete.Size = new System.Drawing.Size(103, 108);
-            this.btnSete.TabIndex = 12;
-            this.btnSete.Text = "7";
-            this.btnSete.UseVisualStyleBackColor = false;
+            this.btnMais.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnMais.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnMais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMais.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMais.Location = new System.Drawing.Point(330, 345);
+            this.btnMais.Name = "btnMais";
+            this.btnMais.Size = new System.Drawing.Size(106, 108);
+            this.btnMais.TabIndex = 7;
+            this.btnMais.Text = "+";
+            this.btnMais.UseVisualStyleBackColor = false;
+            this.btnMais.Click += new System.EventHandler(this.btnMais_Click);
             // 
-            // btnOito
+            // btnTres
             // 
-            this.btnOito.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnOito.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnOito.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOito.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOito.Location = new System.Drawing.Point(112, 117);
-            this.btnOito.Name = "btnOito";
-            this.btnOito.Size = new System.Drawing.Size(103, 108);
-            this.btnOito.TabIndex = 13;
-            this.btnOito.Text = "8";
-            this.btnOito.UseVisualStyleBackColor = false;
+            this.btnTres.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnTres.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnTres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTres.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTres.Location = new System.Drawing.Point(221, 345);
+            this.btnTres.Name = "btnTres";
+            this.btnTres.Size = new System.Drawing.Size(103, 108);
+            this.btnTres.TabIndex = 6;
+            this.btnTres.Text = "3";
+            this.btnTres.UseVisualStyleBackColor = false;
+            this.btnTres.Click += new System.EventHandler(this.btnTres_Click);
             // 
-            // btnNove
+            // btnDois
             // 
-            this.btnNove.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnNove.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnNove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNove.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNove.Location = new System.Drawing.Point(221, 117);
-            this.btnNove.Name = "btnNove";
-            this.btnNove.Size = new System.Drawing.Size(103, 108);
-            this.btnNove.TabIndex = 14;
-            this.btnNove.Text = "9";
-            this.btnNove.UseVisualStyleBackColor = false;
-            // 
-            // btnVezes
-            // 
-            this.btnVezes.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnVezes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnVezes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVezes.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVezes.Location = new System.Drawing.Point(330, 117);
-            this.btnVezes.Name = "btnVezes";
-            this.btnVezes.Size = new System.Drawing.Size(106, 108);
-            this.btnVezes.TabIndex = 15;
-            this.btnVezes.Text = "x";
-            this.btnVezes.UseVisualStyleBackColor = false;
-            // 
-            // btnQuatro
-            // 
-            this.btnQuatro.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnQuatro.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnQuatro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuatro.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuatro.Location = new System.Drawing.Point(3, 231);
-            this.btnQuatro.Name = "btnQuatro";
-            this.btnQuatro.Size = new System.Drawing.Size(103, 108);
-            this.btnQuatro.TabIndex = 8;
-            this.btnQuatro.Text = "4";
-            this.btnQuatro.UseVisualStyleBackColor = false;
-            // 
-            // btnCinco
-            // 
-            this.btnCinco.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnCinco.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnCinco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCinco.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCinco.Location = new System.Drawing.Point(112, 231);
-            this.btnCinco.Name = "btnCinco";
-            this.btnCinco.Size = new System.Drawing.Size(103, 108);
-            this.btnCinco.TabIndex = 9;
-            this.btnCinco.Text = "5";
-            this.btnCinco.UseVisualStyleBackColor = false;
-            // 
-            // btnSeis
-            // 
-            this.btnSeis.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnSeis.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnSeis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeis.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeis.Location = new System.Drawing.Point(221, 231);
-            this.btnSeis.Name = "btnSeis";
-            this.btnSeis.Size = new System.Drawing.Size(103, 108);
-            this.btnSeis.TabIndex = 10;
-            this.btnSeis.Text = "6";
-            this.btnSeis.UseVisualStyleBackColor = false;
-            // 
-            // btnMenos
-            // 
-            this.btnMenos.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnMenos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMenos.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenos.Location = new System.Drawing.Point(330, 231);
-            this.btnMenos.Name = "btnMenos";
-            this.btnMenos.Size = new System.Drawing.Size(106, 108);
-            this.btnMenos.TabIndex = 11;
-            this.btnMenos.Text = "-";
-            this.btnMenos.UseVisualStyleBackColor = false;
+            this.btnDois.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnDois.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnDois.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDois.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDois.Location = new System.Drawing.Point(112, 345);
+            this.btnDois.Name = "btnDois";
+            this.btnDois.Size = new System.Drawing.Size(103, 108);
+            this.btnDois.TabIndex = 5;
+            this.btnDois.Text = "2";
+            this.btnDois.UseVisualStyleBackColor = false;
+            this.btnDois.Click += new System.EventHandler(this.btnDois_Click);
             // 
             // btnUm
             // 
@@ -275,97 +215,171 @@
             this.btnUm.UseVisualStyleBackColor = false;
             this.btnUm.Click += new System.EventHandler(this.btnUm_Click);
             // 
-            // btnDois
+            // btnMenos
             // 
-            this.btnDois.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnDois.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnDois.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDois.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDois.Location = new System.Drawing.Point(112, 345);
-            this.btnDois.Name = "btnDois";
-            this.btnDois.Size = new System.Drawing.Size(103, 108);
-            this.btnDois.TabIndex = 5;
-            this.btnDois.Text = "2";
-            this.btnDois.UseVisualStyleBackColor = false;
+            this.btnMenos.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnMenos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenos.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenos.Location = new System.Drawing.Point(330, 231);
+            this.btnMenos.Name = "btnMenos";
+            this.btnMenos.Size = new System.Drawing.Size(106, 108);
+            this.btnMenos.TabIndex = 11;
+            this.btnMenos.Text = "-";
+            this.btnMenos.UseVisualStyleBackColor = false;
+            this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
             // 
-            // btnTres
+            // btnSeis
             // 
-            this.btnTres.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnTres.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnTres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTres.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTres.Location = new System.Drawing.Point(221, 345);
-            this.btnTres.Name = "btnTres";
-            this.btnTres.Size = new System.Drawing.Size(103, 108);
-            this.btnTres.TabIndex = 6;
-            this.btnTres.Text = "3";
-            this.btnTres.UseVisualStyleBackColor = false;
+            this.btnSeis.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnSeis.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnSeis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeis.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeis.Location = new System.Drawing.Point(221, 231);
+            this.btnSeis.Name = "btnSeis";
+            this.btnSeis.Size = new System.Drawing.Size(103, 108);
+            this.btnSeis.TabIndex = 10;
+            this.btnSeis.Text = "6";
+            this.btnSeis.UseVisualStyleBackColor = false;
+            this.btnSeis.Click += new System.EventHandler(this.btnSeis_Click);
             // 
-            // btnMais
+            // btnCinco
             // 
-            this.btnMais.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnMais.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnMais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMais.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMais.Location = new System.Drawing.Point(330, 345);
-            this.btnMais.Name = "btnMais";
-            this.btnMais.Size = new System.Drawing.Size(106, 108);
-            this.btnMais.TabIndex = 7;
-            this.btnMais.Text = "+";
-            this.btnMais.UseVisualStyleBackColor = false;
+            this.btnCinco.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnCinco.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnCinco.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCinco.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCinco.Location = new System.Drawing.Point(112, 231);
+            this.btnCinco.Name = "btnCinco";
+            this.btnCinco.Size = new System.Drawing.Size(103, 108);
+            this.btnCinco.TabIndex = 9;
+            this.btnCinco.Text = "5";
+            this.btnCinco.UseVisualStyleBackColor = false;
+            this.btnCinco.Click += new System.EventHandler(this.btnCinco_Click);
             // 
-            // btnVirgula
+            // btnQuatro
             // 
-            this.btnVirgula.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnVirgula.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnVirgula.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVirgula.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVirgula.Location = new System.Drawing.Point(221, 459);
-            this.btnVirgula.Name = "btnVirgula";
-            this.btnVirgula.Size = new System.Drawing.Size(103, 112);
-            this.btnVirgula.TabIndex = 2;
-            this.btnVirgula.Text = ",";
-            this.btnVirgula.UseVisualStyleBackColor = false;
+            this.btnQuatro.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnQuatro.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnQuatro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuatro.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuatro.Location = new System.Drawing.Point(3, 231);
+            this.btnQuatro.Name = "btnQuatro";
+            this.btnQuatro.Size = new System.Drawing.Size(103, 108);
+            this.btnQuatro.TabIndex = 8;
+            this.btnQuatro.Text = "4";
+            this.btnQuatro.UseVisualStyleBackColor = false;
+            this.btnQuatro.Click += new System.EventHandler(this.btnQuatro_Click);
             // 
-            // btnIgual
+            // btnVezes
             // 
-            this.btnIgual.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnIgual.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIgual.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIgual.Location = new System.Drawing.Point(330, 459);
-            this.btnIgual.Name = "btnIgual";
-            this.btnIgual.Size = new System.Drawing.Size(106, 112);
-            this.btnIgual.TabIndex = 3;
-            this.btnIgual.Text = "=";
-            this.btnIgual.UseVisualStyleBackColor = false;
+            this.btnVezes.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnVezes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnVezes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVezes.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVezes.Location = new System.Drawing.Point(330, 117);
+            this.btnVezes.Name = "btnVezes";
+            this.btnVezes.Size = new System.Drawing.Size(106, 108);
+            this.btnVezes.TabIndex = 15;
+            this.btnVezes.Text = "x";
+            this.btnVezes.UseVisualStyleBackColor = false;
+            this.btnVezes.Click += new System.EventHandler(this.btnVezes_Click);
             // 
-            // btnMaisMenos
+            // btnNove
             // 
-            this.btnMaisMenos.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnMaisMenos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnMaisMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaisMenos.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMaisMenos.Location = new System.Drawing.Point(3, 459);
-            this.btnMaisMenos.Name = "btnMaisMenos";
-            this.btnMaisMenos.Size = new System.Drawing.Size(103, 112);
-            this.btnMaisMenos.TabIndex = 0;
-            this.btnMaisMenos.Text = "+/-";
-            this.btnMaisMenos.UseVisualStyleBackColor = false;
+            this.btnNove.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnNove.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnNove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNove.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNove.Location = new System.Drawing.Point(221, 117);
+            this.btnNove.Name = "btnNove";
+            this.btnNove.Size = new System.Drawing.Size(103, 108);
+            this.btnNove.TabIndex = 14;
+            this.btnNove.Text = "9";
+            this.btnNove.UseVisualStyleBackColor = false;
+            this.btnNove.Click += new System.EventHandler(this.btnNove_Click);
             // 
-            // btnZero
+            // btnOito
             // 
-            this.btnZero.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.btnZero.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnZero.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnZero.Location = new System.Drawing.Point(112, 459);
-            this.btnZero.Name = "btnZero";
-            this.btnZero.Size = new System.Drawing.Size(103, 112);
-            this.btnZero.TabIndex = 1;
-            this.btnZero.Text = "0";
-            this.btnZero.UseVisualStyleBackColor = false;
-            this.btnZero.Click += new System.EventHandler(this.btnZero_Click);
+            this.btnOito.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnOito.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnOito.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOito.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOito.Location = new System.Drawing.Point(112, 117);
+            this.btnOito.Name = "btnOito";
+            this.btnOito.Size = new System.Drawing.Size(103, 108);
+            this.btnOito.TabIndex = 13;
+            this.btnOito.Text = "8";
+            this.btnOito.UseVisualStyleBackColor = false;
+            this.btnOito.Click += new System.EventHandler(this.btnOito_Click);
+            // 
+            // btnSete
+            // 
+            this.btnSete.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnSete.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnSete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSete.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSete.Location = new System.Drawing.Point(3, 117);
+            this.btnSete.Name = "btnSete";
+            this.btnSete.Size = new System.Drawing.Size(103, 108);
+            this.btnSete.TabIndex = 12;
+            this.btnSete.Text = "7";
+            this.btnSete.UseVisualStyleBackColor = false;
+            this.btnSete.Click += new System.EventHandler(this.btnSete_Click);
+            // 
+            // btnDividir
+            // 
+            this.btnDividir.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnDividir.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDividir.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDividir.Location = new System.Drawing.Point(330, 3);
+            this.btnDividir.Name = "btnDividir";
+            this.btnDividir.Size = new System.Drawing.Size(106, 108);
+            this.btnDividir.TabIndex = 19;
+            this.btnDividir.Text = "÷";
+            this.btnDividir.UseVisualStyleBackColor = false;
+            this.btnDividir.Click += new System.EventHandler(this.btnDividir_Click);
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.Color.Turquoise;
+            this.btnLimpar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpar.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(221, 3);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(103, 108);
+            this.btnLimpar.TabIndex = 18;
+            this.btnLimpar.Text = "C";
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnLimparMemoria
+            // 
+            this.btnLimparMemoria.BackColor = System.Drawing.Color.Turquoise;
+            this.btnLimparMemoria.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnLimparMemoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimparMemoria.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimparMemoria.Location = new System.Drawing.Point(112, 3);
+            this.btnLimparMemoria.Name = "btnLimparMemoria";
+            this.btnLimparMemoria.Size = new System.Drawing.Size(103, 108);
+            this.btnLimparMemoria.TabIndex = 17;
+            this.btnLimparMemoria.Text = "CE";
+            this.btnLimparMemoria.UseVisualStyleBackColor = false;
+            // 
+            // btnPorcentagem
+            // 
+            this.btnPorcentagem.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnPorcentagem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnPorcentagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPorcentagem.Font = new System.Drawing.Font("OCR A Extended", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPorcentagem.Location = new System.Drawing.Point(3, 3);
+            this.btnPorcentagem.Name = "btnPorcentagem";
+            this.btnPorcentagem.Size = new System.Drawing.Size(103, 108);
+            this.btnPorcentagem.TabIndex = 16;
+            this.btnPorcentagem.Text = "%";
+            this.btnPorcentagem.UseVisualStyleBackColor = false;
             // 
             // FormularioCalculadora
             // 
